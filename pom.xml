@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://nexusserver.com:8081/repository/test_job/</url>
+            <url>http://192.168.27.147:8081/repository/test_job/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://nexusserver.com:8081/repository/test_snapshot/</url>
+            <url>http://192.168.27.147:8081/repository/test_snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
